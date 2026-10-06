@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ #header img{
+    margin-left: 200px;
+    width: 300px;
+    height: 250px;
+}
+
+#body {
+    padding: 90px 120px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+table {
+    margin-top: 50px;
+    border: 0.5px solid rgb(147, 222, 255);
+    background-color: rgb(235, 248, 244);
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: lighter;
+    width: 100%;
+}   
+td{
+    padding: 14px 90px;
+    text-align: center;
+
+}
+p{
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    border: 0.5px solid rgb(147, 222, 255);
+    background-color: rgb(235, 248, 244);
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 900;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.box1{
+    margin-right: 40px;
+}
+.box2{
+margin-right: 40px;
+}
+.box1:hover{
+        transition: 0.6s;
+        transform: translateY(-30px);
+}
+.box2:hover{
+        transition: 0.6s;
+        transform: translateY(-30px);}
+.box3:hover{
+        transition: 0.6s;
+        transform: translateY(-30px);
+}
+.list1{
+    display: inline-block;
+    margin-top: 40px;
+    border: 0.5px solid rgb(147, 222, 255);
+    background-color: rgb(235, 248, 244);
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+.list2{
+    display: inline-block;
+    margin-top: 40px;
+    border: 0.5px solid rgb(147, 222, 255);
+    background-color: rgb(235, 248, 244);
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+.list3{
+    display: inline-block;
+    margin-top: 40px;
+    border: 0.5px solid rgb(147, 222, 255);
+    background-color: rgb(235, 248, 244);
+    border-collapse: collapse;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+ul{
+    list-style-type: square;
+}
+#img {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#img img {
+    width: 300px;
+    height: 250px;
+    margin: 0;
+}
